@@ -162,6 +162,10 @@ a {
   text-decoration: none;
 }
 
+.link-block.w--current {
+    text-decoration: underline;
+}
+
 .link-block.kr {
   font-size: 30px;
 }
@@ -172,10 +176,6 @@ a {
 
 .link-block.en {
   font-size: 25px;
-}
-
-.link-block.en.w--current {
-  text-decoration: underline;
 }
 
 .lang-wrap {
