@@ -1151,13 +1151,12 @@ a {
 
   .sign {
     position: absolute;
-    bottom: 2%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 18vw;
-    margin-top: 0%;
+    width: 100%;
+    margin-top: 50%;
   }
 
   .sign.menu {
