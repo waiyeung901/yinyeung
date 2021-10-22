@@ -1045,6 +1045,46 @@ a {
   font-family: 'Gochi Hand', sans-serif;
 }
 
+.seating-plan {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.plan-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.plan-img {
+  overflow: hidden;
+  width: 40%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 991px) {
   a {
     color: #4e69a7;
@@ -1194,6 +1234,10 @@ a {
   .brand-2 {
     display: none;
   }
+
+  .plan-img {
+    border-radius: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1322,6 +1366,10 @@ a {
   .speech {
     width: 100%;
   }
+
+  .plan-img {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1435,6 +1483,10 @@ a {
 
   .text-block {
     font-size: 4vw;
+  }
+
+  .plan-img {
+    width: 100%;
   }
 }
 
